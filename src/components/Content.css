@@ -1,0 +1,63 @@
+.content {
+  padding: 20px;
+}
+
+.welcome-section {
+  text-align: center;
+}
+
+.explore-button {
+  background-color: blue; /* Set the background to blue */
+  color: white; /* Set the text color to white for contrast */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add slight rounding for better aesthetics */
+}
+
+.explore-button:hover {
+  background-color: darkblue; /* Darker blue on hover */
+}
+
+
+.phone-details {
+  margin-top: 20px;
+}
+
+.phone-cards {
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: center; /* Center items */
+  gap: 20px; /* Space between cards */
+}
+
+.phone-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px; /* Fixed width for uniform cards */
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s; /* Animation effect */
+}
+
+.phone-card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.phone-image {
+  width: 100%; /* Responsive image */
+  height: auto;
+  border-radius: 8px;
+}
+
+.phone-card h3 {
+  margin: 10px 0;
+}
+
+.phone-card p {
+  font-size: 14px;
+  color: #555;
+}

@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure body takes at least full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.content {
+  flex: 1; /* This allows the content area to grow and fill available space */
+}
+
+.footer {
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  position: relative; /* Ensures footer stays at the bottom */
+  bottom: 0; /* Aligns footer to the bottom */
+  width: 100%; /* Full width footer */
+  margin-top: auto; /* Pushes footer to the end of the page */
+}
